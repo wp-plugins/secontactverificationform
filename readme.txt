@@ -1,4 +1,4 @@
-===SEContactForm (SMS Email Contact Form)===
+===SEContactVerificationForm (Contact Form with mobile phone verification function)===
 Contributors: mobiweb
 Tags: contact, form, contact form, feedback, email, ajax, captcha, SMS, verification
 Requires at least: 3.0
