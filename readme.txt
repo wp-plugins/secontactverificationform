@@ -1,32 +1,35 @@
 ===SEContactForm (SMS Email Contact Form)===
 Contributors: mobiweb
-Tags: contact, form, contact form, feedback, email, ajax, captcha, SMS
+Tags: contact, form, contact form, feedback, email, ajax, captcha, SMS, verification
 Requires at least: 3.0
 Tested up to: 3.3
 Stable tag: trunk
 License: GPLv2 or later
 
-Contact form plugin, with  SMTP, SMS notification, CAPTCHA and easy configuration.
+Contact form plugin, with  SMTP, SMS notification, CAPTCHA, phone number verification and easy configuration.
 
 == Description ==
 
-SEContactForm (SMS Email Contact Form) comes with email SMTP and send mail capability. It is integrate with http://isms.com.my to provide SMS notification capability. 
-SEContactForm support CAPTCHA for spam filtering, it comes with predefined columns and user can choose to add in as many as 30 fields in a form.
+SEContactVerificationForm comes with phone verification capability. It is integrated with https://isms.com.my/ to provide SMS phone verification capability. 
+SEContactVerificationForm support CAPTCHA for spam filtering, it comes with predefined columns and user can choose to add in as many as 30 fields in a form.
 ISMS.com.my is able to send SMS worldwide with prepaid credit.
+
+You can choose to enable/disable the function to have user verify their phone number before allowing them to submit any enquiries.
+Should you choose to enable the function, users who wish to send you an enquiry through the form will need to have their mobile number verified first through SMS.
 
 = Plugin's Official Site =
 
-SEContactForm (SMS Email Contact Form) ([http://isms.com.my/se_contact_form.php](http://isms.com.my/se_contact_form.php))
+SEContactVerificationForm ([http://isms.com.my/](http://isms.com.my/))
 
 == Installation ==
 
-1. Upload the entire `secontactform` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `secontactverificationform` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Use shortcode [secontactform] anywhere in your post or page to show the form.
+3. Use shortcode [secontactverificationform] anywhere in your post or page to show the form.
 
-You will find 'SE Contact Form' menu in your WordPress setting panel.
+You will find 'SE Contact Verification Form' menu in your WordPress setting panel.
 
-For basic usage, you can also have a look at the [plugin homepage](http://isms.com.my/se_contact_form.php).
+For basic usage, you can also have a look at the [plugin homepage](http://isms.com.my/).
 
 == Frequently Asked Questions ==
 
@@ -38,70 +41,12 @@ For basic usage, you can also have a look at the [plugin homepage](http://isms.c
 1. Purchase the SMS credit at isms.com.my, the SMS credit supports worldwide.
 2. Then set your username and password into the form to send SMS notification when anyone submitted the inquiry.
 
-[Support](http://isms.com.my/se_contact_form.php)
+[Support](http://isms.com.my/)
 Contact us for any issue, bug fix.
 
 == Changelog ==
-= 1.2.2 =
-* Updated SMS send function to use cURL instead of f_open
-* Updated SMS link to use iSMS SSL link
-* Added auto response for SMS
-
-= 1.2.1 =
-* Added SMTP debug option for better SMTP error handling and debugging
-* Tailing semi-colon are removed from destination email automatically while sending email
-
-= 1.2.0.1 =
-* Fixed a small bug that causes warning
-
-= 1.2.0 =
-* Some update to CSS style to correct interface problem in admin page
-* Added auto response feature
-
-= 1.1.8 =
-* Some additional parameters in url are removed on each form submit to prevent them from stacking
-
-= 1.1.7 =
-* More bug fixes
-
-= 1.1.6 =
-* More bug fixes
-
-= 1.1.5.2 =
-* More bug fixes
-
-= 1.1.5.1 =
-* Some small bug fixes
-
-= 1.1.5 =
-* Folder secontactform removed
-* Renamed readme.txt
-
-= 1.1.4 =
-* Changed country field from text field to select field
-* A default list of countries are preloaded
-* Added option to define own list of countries
-
-= 1.1.3 =
-* Updated error in custom field 1 loading values in custom field 2
-* Captcha field correctly aligned
-
-= 1.1.2 =
-* Added some icons to messages
-
-= 1.1.1 =
-* Updated some interface and CSS
-
-= 1.1.0 =
-* Updated bugged mobile phone field in both javascript and form
-* Some functions rewritten to return values instead of printing output directly
-* Removed some extra texts at the top that was not removed in the last revision
-* Existence of a session is checked before starting a session
-* Parameters prevented from stacking behind URL
-* Moved includes into function to fix extra bytes problem when installing the plugin
-* Fixed message required name typo
-* Allow redirect to work in both pretty URL enabled and non-pretty URL enabled wordpress
-* Script property exited after redirects
+= 1.0.1 =
+* Updated description and guides
 
 = 1.0.0 =
 * Initial release
