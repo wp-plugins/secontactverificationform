@@ -3,7 +3,7 @@
 Plugin Name: SEContactVerificationForm
 Plugin URI: http://www.isms.com.my/
 Description: A SMS and email contact form SMS phone verification function. Install and add [secontactverificationform] to any pages or post!
-Version: 1.0.3
+Version: 1.0.4
 Author: H.P.Ang
 Author URI: http://www.isms.com.my/
 License: GPL
@@ -488,7 +488,7 @@ function handle_contact_post_verify() {
       if($captcha_valid && $no_error){
         foreach ($_POST as $name => $value){
           if(substr($name, 0, 1) == "i"){
-            $message .= substr($name, 1).": $value\n";
+            $message .= substr($name, 1).": $value".(($name=="imobilephone"&&$_POST['verify'])==1?" (Verified)":"")."\n";
           }elseif(substr($name, 0, 2) == "ci"){
             $message .= get_option(substr($name, 1)).": $value\n";
           }

@@ -54,6 +54,9 @@ For complete guide, please have a look at our SE Contact Verification Form [Plug
 If you encounter any issues or bug fix with SE Contact Form with Mobile Number Verification Wordpress Plugin, please contact our [support team](https://www.isms.com.my/).
 
 == Changelog ==
+= 1.0.4 =
+* Verified tag will be added to mobile numbers that are verified, the tag is only available when the function is enabled
+
 = 1.0.3 =
 * Updated description and guides
 
