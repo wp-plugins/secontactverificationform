@@ -15,7 +15,7 @@ with our Wordpress SE Contact Form. We integrated wordpress contact form with [h
 mobile number verification tools to validate all incoming enquiries and prevent spams through SMS. 
 SE Contact Verification Form supports CAPTCHA for additional spam filtering and comes with predefined contact form 
 fields as well as additional custom text fields. [Bulk SMS Malaysia](https://www.isms.com.my/) covers more than 800 mobile operators worldwide 
-and you are able to send SMS to [Singapore](https://www.isms.com.my/bulk-sms-singapore.php), [Malaysia](https://www.isms.com.my/), [Indonesia](https://www.isms.com.my/bulk-sms-indonesia.php), [Thailand](https://www.isms.com.my/bulk-sms-thailand.php), [Brunei](https://www.isms.com.my/bulk-sms-brunei.php), [Australia](https://www.isms.com.my/bulk-sms-australia.php) or [China](https://www.isms.com.my/bulk-sms-china.php) with iSMS prepaid SMS credits.
+and you are able to send SMS to [Singapore](https://www.isms.com.my/bulk-sms-singapore.php), [Malaysia](https://www.isms.com.my/), [Indonesia](https://www.isms.com.my/bulk-sms-indonesia.php), [Thailand](https://www.isms.com.my/bulk-sms-thailand.php), [Brunei](https://www.isms.com.my/bulk-sms-brunei.php), [Australia](https://www.isms.com.my/bulk-sms-australia.php) or [China](https://www.isms.com.my/bulk-sms-china.php) with iSMS prepaid SMS credits.
 
 You can choose to enable/disable the function to have user verify their phone number before allowing them to submit any enquiries. 
 Should you choose to enable the SMS verification function in your wordpress contact form, users who wish to send you an enquiry through 
@@ -47,13 +47,16 @@ For complete guide, please have a look at our SE Contact Verification Form [Plug
 2. With SMTP, some server may not work. It depends on your web hosting provider.
 3. If you are using Host388 Malaysia Web Hosting Services, please visit our website for more info.
 
-= For iSMS – Bulk SMS Malaysia =
+= For iSMS - Bulk SMS Malaysia =
 1.Purchase the SMS credit at [isms.com.my](https://www.isms.com.my/) to experience the complete features of SE Contact Verification Form. iSMS Malaysia's SMS credits supports worldwide mobile networks.
 2.Insert your username and password into the form to send SMS notification when your potential clients or visitors submitted an enquiry.
 
 If you encounter any issues or bug fix with SE Contact Form with Mobile Number Verification Wordpress Plugin, please contact our [support team](https://www.isms.com.my/).
 
 == Changelog ==
+= 1.0.3 =
+* Updated description and guides
+
 = 1.0.2 =
 * Updated description and guides
 
