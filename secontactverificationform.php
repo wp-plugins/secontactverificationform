@@ -3,7 +3,7 @@
 Plugin Name: SEContactVerificationForm
 Plugin URI: http://www.isms.com.my/
 Description: A SMS and email contact form SMS phone verification function. Install and add [secontactverificationform] to any pages or post!
-Version: 1.0.4
+Version: 1.0.5
 Author: H.P.Ang
 Author URI: http://www.isms.com.my/
 License: GPL
